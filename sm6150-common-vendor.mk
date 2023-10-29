@@ -191,6 +191,7 @@ PRODUCT_PACKAGES += \
     libswvdec \
     libvppclient \
     libasphere \
+    libmisoundfx \
     libshoebox \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0 \
