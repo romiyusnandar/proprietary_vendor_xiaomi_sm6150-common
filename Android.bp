@@ -4958,6 +4958,15 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+prebuilt_etc_xml {
+	name: "manifest_vendor.dolby.hardware.dms",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
 cc_prebuilt_binary {
 	name: "adpl",
 	owner: "xiaomi",
@@ -5719,4 +5728,3 @@ install_symlink {
 	installed_location: "lib64/libq3dtools_adreno.so",
 	symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",
 }
-
